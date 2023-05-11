@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>BASTIÁN LOBOS</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+        <style>
+            @media (min-width: 768px) {
+                .container { max-width: 720px;}
+            }
+        </style>
+    </head>
+    <body class="bg-secondary-subtle bg-gradient">
+        <header class="container">
+            <div class="row">
+                <div class="col-12 py-3">
+                    <h2 class="text-center mt-5 fs-5 fw-bolder">BASTIÁN LOBOS</h2>
+                    <h1 class="text-center mt-3 mb-4 fs-2">THE BASEMENT</h1>
+                    <p class="lead text-center mx-auto w-75">Este Sitio Web perimitirá dar a conocer desarrollos de videojuegos independientes más relevantes de la industria.</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <h3 class="text-center py-3">PROTO-PERSONAS</h3>
+                            <!--PROTO-PERSONA 1-->
+                            <div class="row align-items-center bg-white rounded mb-4 g-0 shadow-sm">
+                                <div class="col-sm-4">
+                                    <img src="img/proto-persona-1.png" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 p-4 small">
+                                    <h4>Carolina (48 años)</h4>
+                                    <p>Es abogada. Vive en la Región Metropolitana, junto a su esposo y su hijo. Le gusta realizar actividades al aire libre, pasar tiempo con su familia, ver series, películas y leer. No es un persona que pase mucho tiempo es su computador, salvo para trabajar, y tampoco esta interesada en los videojuegos.</p>
+                                    <p class="text-secondary">Carolina le gustaría regalarle un videojuego a su hijo, ya que últimamente está mostrando un interés por estos. Carolina realiza esta busqueda por un videojuego en su computador días antes del cumpleaños de su hijo, no tiene idea de cuáles podrían gustarle.</p>
+                                </div>
+                            </div>
+                            <!--PROTO-PERSONA 2-->
+                            <div class="row align-items-center bg-white rounded mb-4 g-0 shadow-sm">
+                                <div class="col-sm-4 order-sm-2">
+                                    <img src="img/proto-persona-2.png" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 order-sm-1 p-4 small">
+                                    <h4>Vicente (20 años)</h4>
+                                    <p>Es estudiante de periodismo. Vive en la Región Metropolitana, junto a su papá, mamá y sus dos hermanos menores. Su tiempo libre lo emplea en jugar videojuegos, ver youtube, series, pasar tiempo con sus amigos, pero no le gusta mucho pasar demasiado tiempo "encerrado", disfruta mucho de salir con sus amigos, realizar ejercicio y jugar basquetball.</p>
+                                    <p class="text-secondary">Vicente está interesado en buscar nuevos videojuegos a los cuales jugar, principalmente videojuegos "indie", ya que estos le ofrecen otro tipo de experiencias, que los desarrollos "AAA" no ofrecen. Esta busqueda por juegos "indie" las realiza cuando ya ha acabado algún videojuego y la realiza desde su notebook o celular.</p>
+                                </div>
+                            </div>
+                            <!--PROTO-PERSONA 3-->
+                            <div class="row align-items-center bg-white rounded mb-5 g-0 shadow-sm">
+                                <div class="col-sm-4">
+                                    <img src="img/proto-persona-3.png" class="w-100 rounded" />
+                                </div>
+                                <div class="col-sm-8 p-4 small">
+                                    <h4>Constanza (24 años)</h4>
+                                    <p>Es estudiante de ingeniería en sistemas. Vive en la Región Metropolitana, junto a su hermana mayor. Tiene un gran interés en el desarrollo de videojuegos, es por eso que pasa su tiempo libre analizándo desarrollos independientes, documentales en youtube, charlas sobre el desarrollo de videojuegos, etc. Es muy conocedora del medio de los videojuegos y gasta gran parte de su tiempo libre jugándolos. No es una persona interesada en realizar actividades al exterior, como por ejemplos realizar deportes o salir a pasear, salvo excepciones, como lo puede ser viajes familiares o con sus amigos.</p>
+                                    <p class="text-secondary">Constanza tiene claro cuáles son los videojuegos que quiere jugar y terminar cada mes, ya que está constantemente atenta a cada lanzamiento que sea de su interés, mayormente desarrollos independientes. Ya sabe en qué página puede informarse respecto a la industria y nuevos lanzamiento, siempre dedica parte de su tiempo informándose sobre videojuegos nuevos en su compudaor de escritorio.</p>
+                                </div>
+                            </div>
+                            <!--NO MÁS PROTO-PERSONAS-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-light-subtle border-top border-bottom border-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <h3 class="text-center mt-5 mb-4 fs-4">ANTECEDENTES</h3>
+                            <div class="row row-cols-1 row-cols-sm-3 g-4 pb-5" id="antecedentes"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container text-white-50">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small py-1 px-4 m-0">
+                            <a href="index.html" class="fw-bold">The Basement</a>
+                            <a href="#" class="fw-bold">Bastián Lobos © 2023</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.querySelectorAll("a").forEach((a) => a.classList.add("link-dark"));
+            var datos = [
+                {
+                    thumbnail: "img/antecedente-thumb-3.png",
+                    title: "Inscryption | Daniel Mullins",
+                    screenshot: "img/antecedente-thumb-3.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://www.inscryption.com/",
+                },
+                {
+                    thumbnail: "img/antecedente-thumb-4.png",
+                    title: "Dukope | Lucas Pope",
+                    screenshot: "img/antecedente-4.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://dukope.com/",
+                },
+                {
+                    thumbnail: "img/antecedente-thumb-5.png",
+                    title: "Persona | Atlus",
+                    screenshot: "img/antecedente-5.png",
+                    descriptor: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum magna. Curabitur euismod quis est sit amet porttitor. Integer a posuere odio. Mauris risus odio, dapibus non enim non, luctus tempus odio. Donec pulvinar augue dui. In porttitor cursus lectus sollicitudin maximus. Nam ut nunc et mi blandit semper.",
+                    url: "https://persona.atlus.com/series/portal/us/",
+                },
+            ];
+            datos.forEach((d, i) => {
+                document.getElementById("antecedentes").innerHTML += '<div class="col"><div class="card border-0 h-100 shadow-sm"><img src="' + d.thumbnail + '" class="card-img-top"/><div class="card-body"><h6 class="card-title m-0">' + d.title + '</h6></div><div class="card-footer small border-0"><a href="#" onclick = "detalle(' + i + ')" class="stretched-link text-secondary text-decoration-none">Ver análisis &rarr;</a></div></div></div>';
+            });
+
+            const antecedente = document.querySelector("main");
+            function detalle(nro) {
+                antecedente.innerHTML = '<div class="container"><div class="row"><div class="col-11 mx-auto"><p class="text-center my-4"><a href="#" onClick="window.location.reload()" class="btn btn-light btn-sm shadow-sm fs-6">Volver</a></p><p><a href="' + datos[nro].url + '" class="fw-bold text-dark text-decoration-none" target="_blank">' + datos[nro].title + '</a> | ' + datos[nro].descriptor + '</p><img src="' + datos[nro].screenshot + '" class="w-100 mb-5"></div></div></div>';
+            }
+        </script>
+    </body>
+</html>
